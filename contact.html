@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Clothing E-Store</title>
+</head>
+
+<body>
+    
+
+    <header style="background-color:  #0a76e3; color: #ebf0f0; padding: 20px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h1>Welcome to BlueOcean Boutique</h1>
+            <nav>
+                <ul style="list-style: none; padding: 1px; margin: 0;">
+
+
+                    <li style="display: inline; margin-right: 20px;"><a href="index.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Home</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="item1.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Products</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="contact.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Contact Us</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="registration.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Customer  Registration</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+        <div>
+            <h1>Contact Us</h1>
+            <p>Correspondence Address: 123 Main Street, Ramallah, Palestine</p>
+            <p>Telephone Number: 059-881-4577</p>
+            <p>Email: abufalahmuna@gmail.com</p>
+    
+            <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+                <label for="senderName">Sender Name:</label>
+                <input type="text" id="senderName" name="senderName" required><br><br>
+                
+                <label for="senderEmail">Sender Email:</label>
+                <input type="email" id="senderEmail" name="senderEmail" required><br><br>
+                
+                <label for="senderLocation">Sender Location (city):</label>
+                <input type="text" id="senderLocation" name="senderLocation" required><br><br>
+                
+                <label for="messageSubject">Message Subject:</label>
+                <input type="text" id="messageSubject" name="messageSubject" required><br><br>
+                
+                <label for="messageBody">Message Body:</label><br>
+                <textarea id="messageBody" name="messageBody" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        
+        <div>
+            <img src="contactImage.jpg" alt="Image Description" style="max-width: 100%; width: 400px; height: auto;">
+        </div>
+    </div>
+
+    <footer style="background-color: #0a76e3; color: #fff; padding: 50px ; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <p>&copy; 2024 BlueOcean Boutique. All rights reserved. Last updated: April 4, 2024</p>
+            <p>123 Main Street, Ramallah, palestain | Tel: 059-881-4577 | Email: abufalahmuna@ggmail.com</p>
+            <a href="contact.html" style="color: #0e0707; text-decoration: none; transition: color 0.3s ease;">Contact Us</a>
+        </div>
+    </footer>
+
+</body>
+</html>

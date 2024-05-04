@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration - Your Clothing E-Store</title>
+</head>
+
+
+
+<body>
+
+    <header style="background-color:  #0a76e3; color: #ebf0f0; padding: 20px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h1>Welcome to BlueOcean Boutique</h1>
+            <nav>
+                <ul style="list-style: none; padding: 1px; margin: 0;">
+                    <li style="display: inline; margin-right: 20px;"><a href="index.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Home</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="item1.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Products</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="contact.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Contact Us</a></li>
+                    <li style="display: inline; margin-right: 20px;"><a href="registration.html" style="color: #eaeef0; text-decoration: none; font-size: 18px; transition: color 0.3s ease;">Customer Registration</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div style="font-family: Arial, sans-serif; margin: 0; padding: 20px;">
+        <h1 style="text-align: center; font-size: 2em; color: #333333;">Customer Registration Form</h1>
+
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post" style="border: 1px solid #cccccc; border-radius: 5px; padding: 20px; width: 400px; margin: 0 auto;">
+        <fieldset>
+        <legend style="font-weight: bold;">Personal Information</legend>
+        <div style="margin-bottom: 15px;">
+          <label for="fname" style="display: block; margin-bottom: 5px;">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="lname" style="display: block; margin-bottom: 5px;">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="phone" style="display: block; margin-bottom: 5px;">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend style="font-weight: bold;">Address</legend>
+        <div style="margin-bottom: 15px;">
+          <label for="adr" style="display: block; margin-bottom: 5px;">Address:</label>
+          <input type="text" id="adr" name="address" placeholder="Your address.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="city" style="display: block; margin-bottom: 5px;">City:</label>
+          <input type="text" id="city" name="city" placeholder="Your city.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="postalcode" style="display: block; margin-bottom: 5px;">Postal Code:</label>
+          <input type="text" id="postalcode" name="postalcode" placeholder="Your postal code.." style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="country" style="display: block; margin-bottom: 5px;">Country:</label>
+          <select id="country" name="country" style="width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 15px;">
+            <option value="palestain">Palestine</option>
+            <option value="jorden">Jorden</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </fieldset>
+      <button class="button" style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin-top: 10px; cursor: pointer;">Submit</button>
+    </form>
+    </div>
+    
+
+    <footer style="background-color: #0a76e3; color: #fff; padding: 50px ; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <p>&copy; 2024 BlueOcean Boutique. All rights reserved. Last updated: April 4, 2024</p>
+            <p>123 Main Street, Ramallah, palestain | Tel: 059-881-4577 | Email: abufalahmuna@ggmail.com</p>
+            <a href="contact.html" style="color: #0e0707; text-decoration: none; transition: color 0.3s ease;">Contact Us</a>
+        </div>
+    </footer>
+
+
+</body>
+
+
+
+</html>
